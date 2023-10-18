@@ -125,7 +125,7 @@
         android:layout_height="91dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="36dp"
-        android:src="@drawable/Backtoschool"
+        android:src="@drawable/backtoschool"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_kelas" />
 
@@ -134,7 +134,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:src="@drawable/Backtoschool"
+        android:src="@drawable/backtoschool"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/iv_kelas" />
 
