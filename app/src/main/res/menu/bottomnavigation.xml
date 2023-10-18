@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuhome"
+          android:title="home"
+          android:icon="@drawable/home"></item>
+    <item android:id="@+id/menupekerjaan"
+        android:title="pekerjaan"
+        android:icon="@drawable/clipboardlist"></item>
+    <item android:id="@+id/menucheck"
+        android:title="kursus"
+        android:icon="@drawable/badgecheck"></item>
+    <item android:id="@+id/menupelatihan"
+        android:title="pelatihan"
+        android:icon="@drawable/barchart"></item>
+    <item android:id="@+id/menuprogress"
+        android:title="progress"
+        android:icon="@drawable/usercircle"></item>
+
+</menu>

@@ -32,13 +32,13 @@ class loginActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View) {
         when (v.id) {
-            R.id.btn_login -> {
+            R.id.btn_login1 -> {
                 val bundle = Bundle()
                 bundle.putString("username", et_username.text.toString())
                 bundle.putString("password", et_password.text.toString())
 
 
-                val intent = Intent(this@loginActivity, loginActivity::class.java)
+                val intent = Intent(this@loginActivity, homeActivity::class.java)
                 intent.putExtras(bundle)
                 startActivity(intent)
             }
