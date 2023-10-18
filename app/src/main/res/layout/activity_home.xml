@@ -25,7 +25,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottomnavigation"
-
+        app:itemIconTint="@drawable/icon_selector"
         app:itemActiveIndicatorStyle="@style/App.Custom.Indicator" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
